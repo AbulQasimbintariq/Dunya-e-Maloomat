@@ -1,0 +1,156 @@
+* {
+    background-color: azure;
+  }
+
+#heederName{
+  text-align: center;
+  font-size: 4rem;
+  background-color: rgb(199, 198, 198);
+  color: rgb(69, 69, 69);
+  border-radius: 4rem;
+  font-style: italic;
+  /* margin: 0; */
+}
+#heederName:hover{
+  color: black;
+  background-color: white ;
+}
+nav ul{
+  text-align: center;
+  margin: 0;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding:0 2rem;
+  font-style: italic;
+  /* background-color: rgb(137, 135, 135); */
+}
+.navopts{
+  text-decoration: none;
+  background:transparent;
+  color: rgb(48, 47, 47);
+}
+.navopts:hover{
+  /* color: white; */
+  background-color: rgb(72, 72, 72);
+  /* padding:0 2rem; */
+  border-radius: 0 2rem;
+}
+@media only screen and (max-width: 650px) {
+  nav {
+    display: none;
+  }
+}
+.humanSec{
+background-color: rgb(250, 233, 233);
+}
+main h1 {
+  text-align: center;
+  color:black;
+  font-size: 4rem;
+  font-style: italic;
+  text-decoration: underline;
+  background: transparent;
+}
+@media only screen and (max-width: 600px) {
+  main h1{
+    font-size: 2rem;
+  }
+}
+.humpic{
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.Humimg{
+  background: transparent;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Humimg button{
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+}
+.Humimg button:hover{
+  background-color: black;
+  color: white;
+}
+.picpara{
+  font: 2rem;
+  margin-top: 0;
+  background: transparent;
+}
+@media (max-width: 800px) {
+  .Humimg {
+    flex-direction: column;
+  }
+}
+.Humimg img{
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  border: 1rem solid black;
+  object-fit: cover;
+}
+main p{
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+}
+main p:hover{
+  color: white;
+  background-color: black;
+  border-radius: 1rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  main p{
+    font-size: 1rem;
+  }
+}
+.icons{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  background: transparent;
+}
+.icons i{
+  padding:0 2rem;
+  background:transparent;
+}
+footer{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(199, 198, 198);
+  border-radius: 2rem 2rem 0 0;
+}
+footer p,h2 {
+  background: transparent;
+
+}
+footer p{
+  margin: 0;
+  padding: .5rem 0;
+}
+.footerpart{
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: transparent;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+ 
