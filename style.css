@@ -11,6 +11,13 @@
   font-style: italic;
   /* margin: 0; */
 }
+
+@media (max-width: 600px) {
+  #heederName {
+    font-size: 3rem;
+  }
+}
+
 #heederName:hover{
   color: black;
   background-color: white ;
